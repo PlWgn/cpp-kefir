@@ -35,7 +35,7 @@ bool compareArray(double* array, int arrayLength, double sum) {
     if (errors == arrayLength) return true; else return false;
 }
 
-//Функция увелечения и уменьшения значений
+//Функция увеличения и уменьшения значений
 void editArray(double** array, int arrayLength, double sum) {
     for (int i = 0; i < arrayLength; i++) {
         for (int j = 0; j < arrayLength; j++) {
