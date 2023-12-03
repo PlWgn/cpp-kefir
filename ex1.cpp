@@ -102,7 +102,7 @@ int main()
 
     //Сравнивание суммы с элементами массива arrC и выполнение действия на результате сравнивания
     if (compareArray(arrC, lengthC, sum)) {
-        //Увелечение и уменьшение элементов массива arrA на сумму sum
+        //Увеличение и уменьшение элементов массива arrA на сумму sum
         editArray(arrA, lengthA, sum);
         cout << "Array was edited" << endl;
 
