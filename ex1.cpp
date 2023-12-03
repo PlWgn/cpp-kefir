@@ -45,6 +45,7 @@ void editArray(double** array, int arrayLength, double sum) {
     }
 }
 
+//Функция вывода в консоль массива
 void printArray(double* array, int arrayLength) {
     for (int i = 0; i < arrayLength; i++) {
         cout << array[i] << " ";
